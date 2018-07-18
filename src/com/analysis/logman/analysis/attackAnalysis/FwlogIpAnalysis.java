@@ -1,13 +1,13 @@
 package com.analysis.logman.analysis.attackAnalysis;
 
-import com.agent.logman.dao.DefaultDao;
-import com.agent.logman.dao.AnalysisDao;
-import com.agent.logman.entity.DestipanalysisEntity;
-import com.agent.logman.entity.FwlogEntity;
-import com.agent.logman.entity.FwlogeventsEntity;
-import com.agent.logman.entity.SrcipanalysisEntity;
-import com.agent.logman.utils.AddressUtils;
-import com.agent.logman.utils.IPChangeUtil;
+import com.analysis.logman.dao.DefaultDao;
+import com.analysis.logman.dao.AnalysisDao;
+import com.analysis.logman.entity.DestipanalysisEntity;
+import com.analysis.logman.entity.FwlogEntity;
+import com.analysis.logman.entity.FwlogeventsEntity;
+import com.analysis.logman.entity.SrcipanalysisEntity;
+import com.analysis.logman.utils.AddressUtils;
+import com.analysis.logman.utils.IPChangeUtil;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

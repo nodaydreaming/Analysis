@@ -1,10 +1,10 @@
 package com.analysis.logman.analysis.attackAnalysis;
 
-import com.agent.logman.dao.DefaultDao;
-import com.agent.logman.dao.AnalysisDao;
-import com.agent.logman.entity.*;
-import com.agent.logman.utils.AddressUtils;
-import com.agent.logman.utils.IPChangeUtil;
+import com.analysis.logman.dao.DefaultDao;
+import com.analysis.logman.dao.AnalysisDao;
+import com.analysis.logman.entity.*;
+import com.analysis.logman.utils.AddressUtils;
+import com.analysis.logman.utils.IPChangeUtil;
 
 import java.text.SimpleDateFormat;
 import java.util.*;

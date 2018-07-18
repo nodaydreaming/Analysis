@@ -1,8 +1,8 @@
 package com.analysis.logman.read;
 
 
-import com.agent.logman.entity.RawFwlog;
-import com.agent.logman.utils.IPChangeUtil;
+import com.analysis.logman.entity.RawFwlog;
+import com.analysis.logman.utils.IPChangeUtil;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

@@ -1,8 +1,8 @@
 package com.analysis.logman.dao;
 
-import com.agent.logman.entity.WebflowavgEntity;
-import com.agent.logman.entity.WeblogflowEntity;
-import com.agent.logman.utils.HibernateUtils;
+import com.analysis.logman.entity.WebflowavgEntity;
+import com.analysis.logman.entity.WeblogflowEntity;
+import com.analysis.logman.utils.HibernateUtils;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.hibernate.query.Query;

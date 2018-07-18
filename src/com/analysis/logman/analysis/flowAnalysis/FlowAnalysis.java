@@ -1,16 +1,16 @@
 package com.analysis.logman.analysis.flowAnalysis;
 
 
-import com.agent.logman.analysis.associationanalysis.AssociationBySrcip;
-import com.agent.logman.analysis.attackAnalysis.FwlogIpAnalysis;
-import com.agent.logman.analysis.attackAnalysis.FwlogPortAnalysis;
-import com.agent.logman.dao.AnalysisDao;
-import com.agent.logman.dao.DefaultDao;
-import com.agent.logman.dao.FwlogFlowDao;
-import com.agent.logman.dao.WebFlowDao;
-import com.agent.logman.entity.EventsEntity;
-import com.agent.logman.entity.FwlogflowEntity;
-import com.agent.logman.entity.WeblogflowEntity;
+import com.analysis.logman.analysis.associationanalysis.AssociationBySrcip;
+import com.analysis.logman.analysis.attackAnalysis.FwlogIpAnalysis;
+import com.analysis.logman.analysis.attackAnalysis.FwlogPortAnalysis;
+import com.analysis.logman.dao.AnalysisDao;
+import com.analysis.logman.dao.DefaultDao;
+import com.analysis.logman.dao.FwlogFlowDao;
+import com.analysis.logman.dao.WebFlowDao;
+import com.analysis.logman.entity.EventsEntity;
+import com.analysis.logman.entity.FwlogflowEntity;
+import com.analysis.logman.entity.WeblogflowEntity;
 import javafx.util.Pair;
 
 import java.text.SimpleDateFormat;

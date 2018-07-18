@@ -1,8 +1,8 @@
 package com.analysis.logman.dao;
 
-import com.agent.logman.utils.AddressUtils;
-import com.agent.logman.utils.HibernateUtils;
-import com.agent.logman.utils.IPChangeUtil;
+import com.analysis.logman.utils.AddressUtils;
+import com.analysis.logman.utils.HibernateUtils;
+import com.analysis.logman.utils.IPChangeUtil;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 

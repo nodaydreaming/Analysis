@@ -1,8 +1,8 @@
 package com.analysis.logman.FP_Growth;
 
-import com.agent.logman.dao.AnalysisDao;
-import com.agent.logman.entity.FwlogEntity;
-import com.agent.logman.entity.SrcDest;
+import com.analysis.logman.dao.AnalysisDao;
+import com.analysis.logman.entity.FwlogEntity;
+import com.analysis.logman.entity.SrcDest;
 
 import java.io.IOException;
 import java.text.ParseException;

@@ -1,10 +1,10 @@
 package com.analysis.logman.analysis.associationanalysis;
 
-import com.agent.logman.dao.AnalysisDao;
-import com.agent.logman.dao.DefaultDao;
-import com.agent.logman.entity.AssociationeventsEntity;
-import com.agent.logman.entity.FwlogeventsEntity;
-import com.agent.logman.entity.WeblogeventsEntity;
+import com.analysis.logman.dao.AnalysisDao;
+import com.analysis.logman.dao.DefaultDao;
+import com.analysis.logman.entity.AssociationeventsEntity;
+import com.analysis.logman.entity.FwlogeventsEntity;
+import com.analysis.logman.entity.WeblogeventsEntity;
 
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;

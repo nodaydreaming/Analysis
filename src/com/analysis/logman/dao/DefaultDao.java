@@ -1,6 +1,6 @@
 package com.analysis.logman.dao;
 
-import com.agent.logman.utils.HibernateUtils;
+import com.analysis.logman.utils.HibernateUtils;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 

@@ -29,7 +29,7 @@ public class WebRegex {
                     String time = matcher.group(i);
                     String[] times = time.split(" ");
                     String reslut = timeFormat(times[0]);
-                    weblogEntity.setDatetime(reslut);
+                    weblogEntity.setProducetime(reslut);
                     System.out.println(reslut);
                 }
                 if (i == 9){
@@ -42,7 +42,7 @@ public class WebRegex {
                     weblogEntity.setReactnum(Integer.parseInt(matcher.group(i)));
                 }
                 if (i == 17){
-                    weblogEntity.setFlow(Integer.parseInt(matcher.group(i)));
+                    weblogEntity.setTimes(Integer.parseInt(matcher.group(i)));
                 }
                 if (i == 21){
                     weblogEntity.setBrowser(matcher.group(i));

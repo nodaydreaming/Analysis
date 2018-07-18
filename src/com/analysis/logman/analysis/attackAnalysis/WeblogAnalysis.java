@@ -1,11 +1,11 @@
 package com.analysis.logman.analysis.attackAnalysis;
 
-import com.agent.logman.dao.AnalysisDao;
-import com.agent.logman.dao.DefaultDao;
-import com.agent.logman.entity.WeblogeventsEntity;
-import com.agent.logman.entity.WeblogstatisticsEntity;
-import com.agent.logman.utils.AddressUtils;
-import com.agent.logman.utils.IPChangeUtil;
+import com.analysis.logman.dao.AnalysisDao;
+import com.analysis.logman.dao.DefaultDao;
+import com.analysis.logman.entity.WeblogeventsEntity;
+import com.analysis.logman.entity.WeblogstatisticsEntity;
+import com.analysis.logman.utils.AddressUtils;
+import com.analysis.logman.utils.IPChangeUtil;
 
 import java.util.List;
 import java.util.regex.Matcher;

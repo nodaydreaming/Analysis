@@ -1,10 +1,10 @@
 package com.analysis.logman.analysis.flowAnalysis;
 
-import com.agent.logman.dao.FwlogFlowDao;
-import com.agent.logman.dao.WebFlowDao;
-import com.agent.logman.entity.FwlogflowEntity;
-import com.agent.logman.entity.WeblogflowEntity;
-import com.agent.logman.utils.KeepTwoDecimalUtil;
+import com.analysis.logman.dao.FwlogFlowDao;
+import com.analysis.logman.dao.WebFlowDao;
+import com.analysis.logman.entity.FwlogflowEntity;
+import com.analysis.logman.entity.WeblogflowEntity;
+import com.analysis.logman.utils.KeepTwoDecimalUtil;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

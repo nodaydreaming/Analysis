@@ -1,12 +1,12 @@
 package com.analysis.logman.read;
 
-import com.agent.logman.analysis.flowAnalysis.FlowForecast;
-import com.agent.logman.dao.DefaultDao;
-import com.agent.logman.dao.FwlogFlowDao;
-import com.agent.logman.dao.WebFlowDao;
-import com.agent.logman.entity.*;
-import com.agent.logman.utils.IPChangeUtil;
-import com.agent.logman.utils.KeepTwoDecimalUtil;
+import com.analysis.logman.analysis.flowAnalysis.FlowForecast;
+import com.analysis.logman.dao.DefaultDao;
+import com.analysis.logman.dao.FwlogFlowDao;
+import com.analysis.logman.dao.WebFlowDao;
+import com.analysis.logman.entity.*;
+import com.analysis.logman.utils.IPChangeUtil;
+import com.analysis.logman.utils.KeepTwoDecimalUtil;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -163,7 +163,7 @@ public class Mointor {
                         String line = raf.readLine();
                         if (line != null && !line.equals("")){
                             WeblogEntity weblogEntity = new WebRegex().webRegex(line);
-                            webFlow += weblogEntity.getFlow();
+                            webFlow += weblogEntity.getTimes();
                             if (weblogEntity.getUrl() != null){
                                 Pattern pattern = Pattern.compile(mediaFileRegex);
                                 Matcher matcher = pattern.matcher(weblogEntity.getUrl());

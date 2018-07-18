@@ -1,13 +1,13 @@
 package com.analysis.logman.read;
 
-import com.agent.logman.analysis.flowAnalysis.FlowForecast;
-import com.agent.logman.dao.DefaultDao;
-import com.agent.logman.dao.FwlogFlowDao;
-import com.agent.logman.entity.FwlogEntity;
-import com.agent.logman.entity.FwlogflowEntity;
-import com.agent.logman.entity.RawFwlog;
-import com.agent.logman.utils.AddressUtils;
-import com.agent.logman.utils.IPChangeUtil;
+import com.analysis.logman.analysis.flowAnalysis.FlowForecast;
+import com.analysis.logman.dao.DefaultDao;
+import com.analysis.logman.dao.FwlogFlowDao;
+import com.analysis.logman.entity.FwlogEntity;
+import com.analysis.logman.entity.FwlogflowEntity;
+import com.analysis.logman.entity.RawFwlog;
+import com.analysis.logman.utils.AddressUtils;
+import com.analysis.logman.utils.IPChangeUtil;
 
 import java.io.*;
 import java.text.ParseException;
